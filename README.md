@@ -1,5 +1,5 @@
 # JavaWeather — Real-Time Forecast Tool 🌤️
-### API Integration & Data Visualization — Java Desktop Project
+### API Integration & Data Visualization — Java Command-Line Project
 
 ![Status](https://img.shields.io/badge/status-active-blue)
 ![Type](https://img.shields.io/badge/project-API--study-orange)
