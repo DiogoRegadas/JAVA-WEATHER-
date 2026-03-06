@@ -29,10 +29,6 @@ This project focuses on **Network I/O**, **Asynchronous Request Handling**, and 
 - **HttpURLConnection / HttpClient**: For managing GET requests to weather providers.
 - **org.json / JSON-Simple**: For deserializing and parsing the weather data.
 
-### **Frontend (GUI)**
-- **JavaFX / Swing**: Depending on the specific build, providing a responsive dashboard for the user.
-- **Custom Assets**: Weather icons and visual cues that change based on the forecast.
-
 ### **Patterns & Tools**
 - **API Handler Class**: Dedicated logic to manage endpoint URLs and parameters.
 - **Git & GitHub**: Version control and project documentation.
@@ -45,7 +41,7 @@ This project focuses on **Network I/O**, **Asynchronous Request Handling**, and 
 - Fetches weather data for any city worldwide by communicating with global meteorological databases.
 
 ### 🔹 **2. Real-Time Metrics**
-- Displays current temperature, thermal sensation, humidity levels, and wind conditions.
+- Displays current temperature and conditions.
 - Automatic unit conversion (Celsius/Fahrenheit).
 
 ### 🔹 **3. Status Recognition**
@@ -58,7 +54,6 @@ This project focuses on **Network I/O**, **Asynchronous Request Handling**, and 
 The project follows a "Service-Oriented" logic:
 1. **The Request:** The user inputs a city name, triggering the `WeatherService`.
 2. **The Fetch:** The application constructs a secure URL with an API Key and sends a request.
-3. **The Parse:** The raw JSON string is converted into a Java Object or Map.
-4. **The Update:** The GUI controller reflects the new data instantly.
+3. **The Parse:** The raw JSON string is converted into a JSONObject.
 
 ---
